@@ -7,6 +7,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   height: 100%;
+  overflow: auto;
   width: 100%;
 }
 
@@ -17,10 +18,30 @@ li {
 
 h2 {
   color: #f70074;
-  font-family: 'Source Code Pro Semibold', monospace;
+  font-family: 'Source Code Pro', monospace;
   font-size: 36px;
+  font-weight: 600;
 }
 
 h3 {
   font-family: 'Montserrat Bold', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+  text-align: center;
+  width: 100%;
+}
+
+.half-width {
+  float: left;
+  overflow: auto;
+  width: 50%;
+}
+
+.third-width {
+  float: left;
+  overflow: auto;
+  width: 33.33%;
 }
