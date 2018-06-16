@@ -1,0 +1,26 @@
+/***** BASE STYLE *****/
+
+html,
+body {
+  background-color: #1f202b;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  height: 100%;
+  width: 100%;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+}
+
+h2 {
+  color: #f70074;
+  font-family: 'Source Code Pro Semibold', monospace;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: 'Montserrat Bold', sans-serif;
+}
