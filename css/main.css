@@ -143,3 +143,35 @@ header .hero {
   to{opacity:1;}
   100%{opacity:1;}
 }
+
+/***** ABOUT *****/
+
+#about {
+  background-image: url("../img/ilya-pavlov.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  clear: both;
+  height: 80%;
+  width: 85.8%;
+  padding: 0.1% 7.10% 10% 7.10%;
+}
+
+#about h2 {
+  padding-bottom: 1%;
+}
+
+#about img {
+  border: 2px solid #1f202b;
+  width: 65%;
+  margin: 20% 0 10% 17%;
+}
+
+#about p {
+  color: #1f202b;
+  font-size: 21px;
+  line-height: 1.5;
+  margin-top: 0;
+  padding: 0 2%;
+  text-align: justify;
+}
