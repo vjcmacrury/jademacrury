@@ -45,13 +45,13 @@ h3 {
 
 /***** HEADER *****/
 
-header {
-  padding: 21px 14px 23px 37px;
+header p {
+  padding-left: 37px;
 }
 
 header li {
   display: inline;
-  padding: 23px;
+  padding: 21px 37px 23px 0px;;
   list-style-type: none;
 }
 
@@ -65,5 +65,76 @@ header a:visited {
 
 #navigation {
   float: right;
+}
 
+header .hero {
+  background-image: url("../img/hero-background.png");
+  background-size: cover;
+  clear: both;
+  height: 726px;
+  width: 100%;
+}
+
+header h1 {
+  padding-left: 10%;
+  padding-top: 20%;
+}
+
+.color {
+  color: #ffcb76;
+}
+
+.typing {
+  font-weight: bold;
+  color: #FFFFFF;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #FFFFFF;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #FFFFFF;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #FFFFFF;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #FFFFFF;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #FFFFFF;
+  }
 }
