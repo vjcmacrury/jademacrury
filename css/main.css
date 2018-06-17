@@ -11,11 +11,6 @@ body {
   width: 100%;
 }
 
-li {
-  display: inline;
-  list-style-type: none;
-}
-
 h2 {
   color: #f70074;
   font-family: 'Source Code Pro', monospace;
@@ -46,4 +41,29 @@ h3 {
   float: left;
   overflow: auto;
   width: 33.33%;
+}
+
+/***** HEADER *****/
+
+header {
+  padding: 21px 14px 23px 37px;
+}
+
+header li {
+  display: inline;
+  padding: 23px;
+  list-style-type: none;
+}
+
+header a:link,
+header a:hover,
+header a:active,
+header a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#navigation {
+  float: right;
+
 }
