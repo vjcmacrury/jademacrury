@@ -34,7 +34,7 @@ h3 {
 .half-width {
   float: left;
   overflow: auto;
-  width: 50%;
+  width: 40%;
 }
 
 .third-width {
@@ -142,6 +142,25 @@ header .hero {
   1%{opacity:1;}
   to{opacity:1;}
   100%{opacity:1;}
+}
+
+/***** PORTFOLIO *****/
+
+#one,
+#two {
+  margin: 1% 5% 5% 5%;
+}
+
+#one img,
+#two img {
+  clear: both;
+  margin: auto;
+}
+
+#one p {
+  clear: both;
+  overflow: auto;
+  text-align: right;
 }
 
 /***** ABOUT *****/
