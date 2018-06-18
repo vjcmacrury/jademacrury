@@ -214,3 +214,19 @@ header .hero {
   padding: 0 2%;
   text-align: justify;
 }
+
+/**** CONTACT *****/
+
+#contact {
+  text-align: center;
+}
+
+#contact p {
+  margin: 0;
+}
+
+#contact img {
+  margin: auto;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+}
