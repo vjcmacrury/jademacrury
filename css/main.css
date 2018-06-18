@@ -34,7 +34,6 @@ h3 {
 .half-width {
   float: left;
   overflow: auto;
-  width: 40%;
 }
 
 .third-width {
@@ -65,6 +64,10 @@ header a:visited {
 
 #navigation {
   float: right;
+}
+
+header .half-width {
+  width: 50%;
 }
 
 header .hero {
@@ -151,17 +154,34 @@ header .hero {
   margin: 1% 5% 5% 5%;
 }
 
-#one img,
-#two img {
+#portfolio img {
   clear: both;
-  margin: auto;
+  margin-bottom: 18%;
+}
+
+#portfolio .margin {
+  margin-top: 45%;
+}
+
+#one p,
+#two p {
+  clear: both;
+  margin: 0;
+  overflow: auto;
 }
 
 #one p {
-  clear: both;
-  overflow: auto;
   text-align: right;
 }
+
+#portfolio .half-width {
+  width: 40%;
+}
+
+#portfolio .title {
+  font-weight: bold;
+}
+
 
 /***** ABOUT *****/
 
