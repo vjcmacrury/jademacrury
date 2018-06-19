@@ -11,12 +11,6 @@ body {
   width: 100%;
 }
 
-.container {
-  min-height: 100%;
-  margin-bottom: -50px;
-  width: 100%;
-}
-
 h2 {
   color: #f70074;
   font-family: 'Source Code Pro', monospace;
@@ -197,7 +191,7 @@ header .hero {
   background-size: cover;
   background-repeat: no-repeat;
   clear: both;
-  height: 547px;
+  height: 80%;
   width: 85.8%;
   padding: 1% 7.10% 10% 7.10%;
 }
@@ -225,7 +219,6 @@ header .hero {
 
 #contact {
   text-align: center;
-  margin-bottom: 29.50%;
 }
 
 #contact p {
@@ -236,12 +229,4 @@ header .hero {
   margin: auto;
   padding-left: 3.5%;
   padding-right: 3.5%;
-}
-
-/**** FOOTER *****/
-
-.push,
-.footer {
-  height: 50px;
-  text-align: center;
 }
