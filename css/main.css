@@ -11,6 +11,12 @@ body {
   width: 100%;
 }
 
+.container {
+  min-height: 100%;
+  margin-bottom: -50px;
+  width: 100%;
+}
+
 h2 {
   color: #f70074;
   font-family: 'Source Code Pro', monospace;
@@ -23,11 +29,17 @@ h3 {
   font-weight: bold;
 }
 
+#portfolio .full-width,
+#about .full-width,
+#contact .full-width ,
+footer .full-width {
+  text-align: center;
+}
+
 /***** GRID *****/
 
 .full-width {
   clear: both;
-  text-align: center;
   width: 100%;
 }
 
@@ -44,8 +56,9 @@ h3 {
 
 /***** HEADER *****/
 
-header p {
+header .half-width p {
   padding-left: 37px;
+
 }
 
 header li {
@@ -100,6 +113,7 @@ header .hero {
     overflow:hidden;
     -webkit-animation: type 5s steps(40, end);
     animation: type 5s steps(40, end);
+    padding-left: 37px;
 }
 
 .hero p:nth-child(2) {
@@ -109,7 +123,7 @@ header .hero {
     -webkit-animation: type 5s steps(40, end);
     animation: type2 5s steps(40, end);
     -webkit-animation-delay: 1s;
-    animation-delay: 0;
+    animation-delay: 0.7s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -191,7 +205,7 @@ header .hero {
   background-size: cover;
   background-repeat: no-repeat;
   clear: both;
-  height: 80%;
+  height: 547px;
   width: 85.8%;
   padding: 1% 7.10% 10% 7.10%;
 }
@@ -219,6 +233,7 @@ header .hero {
 
 #contact {
   text-align: center;
+  margin-bottom: 29.50%;
 }
 
 #contact p {
@@ -229,4 +244,12 @@ header .hero {
   margin: auto;
   padding-left: 3.5%;
   padding-right: 3.5%;
+}
+
+/**** FOOTER *****/
+
+.push,
+footer {
+  height: 50px;
+  text-align: center;
 }
